@@ -1,68 +1,600 @@
 {
-  "name": "Gerador de portfólios",
-  "description": "Um projeto que gera um site de portfólio para você! Tudo o que você precisa é o configurar com arquivos json",
+  "name": "Jonathan Santos",
+  "description": " Desenvolvedor Web Full-stack / Desenvolvedor de jogos digitais",
   "categories": [
-    { "id": 0, "name": "Sobremesa", "color": "red" },
-    { "id": 1, "name": "Vegetal", "color": "purple" }
+    { "id": 0, "name": "Web", "color": "#3498DB" },
+    { "id": 1, "name": "Games", "color": "#FF2D9A" },
+    { "id": 2, "name": "Apps", "color": "#3DDC84" },
+    { "id": 3, "name": "CG", "color": "#FF1E56" },
+    { "id": 4, "name": "3D", "color": "#872BFF" }
   ],
   "tags": [
-    { "id": 0, "name": "Francês", "color": "green" },
-    { "id": 1, "name": "Brasileiro", "color": "blue" }
+    { "id": 0, "name": "React", "color": "#61DAFB" },
+    { "id": 1, "name": "11ty", "color": "#333333" },
+    { "id": 2, "name": "Hexo", "color": "#0E83CD" },
+    { "id": 3, "name": "PWA", "color": "#5A0FC8" },
+    { "id": 4, "name": "React Native", "color": "#61DAF3" },
+    { "id": 5, "name": "Node", "color": "#3C873A" },
+    { "id": 6, "name": "Godot", "color": "#3D8FCC" },
+    { "id": 7, "name": "Unity", "color": "#222222" },
+    { "id": 8, "name": "Construct", "color": "#96AAB9" },
+    { "id": 9, "name": "Canvas", "color": "#FF4D79" },
+    { "id": 10, "name": "A-Frame", "color": "#EF2D55" },
+    { "id": 11, "name": "Java", "color": "#007396" },
+    { "id": 12, "name": "Blender", "color": "#EA7600" },
+    { "id": 13, "name": "MagicaVoxel", "color": "#555555" }
   ],
   "projects": [
     {
       "id": 0,
-      "name": "Projeto exemplo 1",
-      "description": "O projeto exemplo 1 é um pudim",
+      "name": "Pedir Comida PWA",
+      "description": "Projeto que participei no meu tempo na eComanda, feito com React e Typescript, meu primeiro PWA",
       "category": 0,
+      "tags": [0, 3],
       "links": [
-        { "text": "Site", "url": "http://www.pudim.com.br" },
-        {
-          "text": "Mais imagens de pudim no google",
-          "url": "https://www.google.com/search?tbm=isch&q=pudding&tbs=imgo:1"
-        }
+        { "text": "Teste-o", "url": "https://beta.pedircomida.com.br/" }
       ],
       "icon": {
-        "src": "pudding.jpg",
-        "width": 373,
-        "height": 280
+        "src": "pedir-comida-pwa-0.png"
       },
       "images": [
-        {
-          "src": "https://cookingwithdog.com/wp-content/uploads/2017/01/custard-pudding-00.jpg",
-          "alt": "Um pudim",
-          "width": 1280,
-          "height": 720
-        },
-        {
-          "src": "https://www.yummytummyaarthi.com/wp-content/uploads/2017/08/1-9.jpg"
-        }
-      ],
-      "videos": [
-        { "src": "https://kutt.it/7nbVKz" }
+        { "src": "pedir-comida-pwa-0.png" },
+        { "src": "pedir-comida-pwa-1.png" },
+        { "src": "pedir-comida-pwa-2.png" },
+        { "src": "pedir-comida-pwa-3.png" }
       ]
     },
     {
       "id": 1,
-      "name": "Projeto exemplo 2",
-      "description": "O projeto exemplo 2 é Mandioca (ou Aipin ou Macaxeira para alguns)",
-      "category": 1,
-      "tags": [1],
+      "name": "Pague Zé",
+      "description": "Projeto que criei durante o Megahack 5.0, feito com React.js e CSS escrito á mão por mim",
+      "category": 0,
+      "tags": [0],
+      "links": [
+        { "text": "Teste-o", "url": "https://pagueze.com.br" },
+        {
+          "text": "Repositório",
+          "url": "https://github.com/jonathan-santos/pague-ze"
+        }
+      ],
       "icon": {
-        "src": "cassava.jpg"
-      }
+        "src": "pague-ze-0.png"
+      },
+      "images": [
+        { "src": "pague-ze-0.png" },
+        { "src": "pague-ze-1.png" },
+        { "src": "pague-ze-2.png" },
+        { "src": "pague-ze-3.png" },
+        { "src": "pague-ze-4.png" },
+        { "src": "pague-ze-5.png" },
+        { "src": "pague-ze-6.png" },
+        { "src": "pague-ze-7.png" },
+        { "src": "pague-ze-8.png" },
+        { "src": "pague-ze-9.png" },
+        { "src": "pague-ze-10.png" },
+        { "src": "pague-ze-11.png" },
+        { "src": "pague-ze-12.png" },
+        { "src": "pague-ze-13.png" }
+      ]
     },
     {
       "id": 2,
-      "name": "Projeto exemplo 3",
-      "category": 1,
-      "tags": [0],
+      "name": "Jhow.io",
+      "description": "Meu site pessoal, feito com HTML e CSS puros",
+      "category": 0,
+      "links": [
+        { "text": "Teste-o", "url": "https://jhow.io/" },
+        {
+          "text": "Repositório",
+          "url": "https://github.com/jonathan-santos/jonathan-santos.github.io"
+        }
+      ],
       "icon": {
-        "src": "french-fries.jpg"
+        "src": "jhow-io-0.png"
       },
-      "videos": [
-        { "youtube": "https://www.youtube.com/embed/CpGwrfOzCA0?start=21" }
+      "images": [
+        { "src": "jhow-io-0.png" },
+        { "src": "jhow-io-1.png" },
+        { "src": "jhow-io-2.png" },
+        { "src": "jhow-io-3.png" },
+        { "src": "jhow-io-4.png" },
+        { "src": "jhow-io-5.png" },
+        { "src": "jhow-io-6.png" }
       ]
+    },
+    {
+      "id": 3,
+      "name": "Pipoca Cafeinada",
+      "description": "Meu Blog pessoal, construído com Hexo e com um tema feito á mão por mim",
+      "category": 0,
+      "tags": [2],
+      "links": [
+        { "text": "Teste-o", "url": "https://pipocacafeinada.com.br/" },
+        {
+          "text": "Repositório",
+          "url": "https://github.com/jonathan-santos/pipocacafeinada"
+        }
+      ],
+      "icon": {
+        "src": "pipoca-cafeinada-0.png"
+      },
+      "images": [
+        { "src": "pipoca-cafeinada-0.png" },
+        { "src": "pipoca-cafeinada-1.png" },
+        { "src": "pipoca-cafeinada-2.png" },
+        { "src": "pipoca-cafeinada-3.png" },
+        { "src": "pipoca-cafeinada-4.png" },
+        { "src": "pipoca-cafeinada-5.png" },
+        { "src": "pipoca-cafeinada-6.png" },
+        { "src": "pipoca-cafeinada-7.png" }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Wikijhow",
+      "description": "Minha Wiki pessoal, construída com Hexo e com um tema feito á mão por mim",
+      "category": 0,
+      "tags": [2],
+      "links": [
+        { "text": "Teste-o", "url": "https://wiki.jhow.io/" },
+        {
+          "text": "Repositório",
+          "url": "https://github.com/jonathan-santos/wikijhow"
+        }
+      ],
+      "icon": {
+        "src": "wikijhow-0.png"
+      },
+      "images": [
+        { "src": "wikijhow-0.png" },
+        { "src": "wikijhow-1.png" },
+        { "src": "wikijhow-2.png" },
+        { "src": "wikijhow-3.png" },
+        { "src": "wikijhow-4.png" },
+        { "src": "wikijhow-5.png" },
+        { "src": "wikijhow-6.png" },
+        { "src": "wikijhow-7.png" },
+        { "src": "wikijhow-8.png" }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Portfolio Generator",
+      "description": "Um gerador de portfólios constrúido com Eleventy, o portfólio que está acessando agora foi gerado a partir dele",
+      "category": 0,
+      "tags": [1],
+      "links": [
+        {
+          "text": "Portólio de exemplo",
+          "url": "https://jhow.io/portfolio-generator"
+        },
+        {
+          "text": "Repositório do projeto",
+          "url": "https://github.com/jonathan-santos/portfolio-generator"
+        }
+      ],
+      "icon": {
+        "src": "portfolio-generator-0.png"
+      },
+      "images": [
+        { "src": "portfolio-generator-0.png" },
+        { "src": "portfolio-generator-1.png" },
+        { "src": "portfolio-generator-2.png" },
+        { "src": "portfolio-generator-3.png" }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Jhowflix",
+      "description": "Um simples clone de Netflix que fiz durante o Imersão Alura de React. Feito usando o mais moderno código React por mim",
+      "category": 0,
+      "tags": [0],
+      "links": [
+        { "text": "Teste-o", "url": "https://flix.jhow.io/" },
+        {
+          "text": "Repositório",
+          "url": "https://github.com/jonathan-santos/jhowflix"
+        }
+      ],
+      "icon": {
+        "src": "jhowflix-0.png"
+      },
+      "images": [
+        { "src": "jhowflix-0.png" },
+        { "src": "jhowflix-1.png" },
+        { "src": "jhowflix-2.png" },
+        { "src": "jhowflix-3.png" },
+        { "src": "jhowflix-4.png" },
+        { "src": "jhowflix-5.png" }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Reclameet",
+      "description": "Simples site cópia do Twitter feito usando HTML, CSS e JS puros junto do servidor feito com Node.js e Express. Feito para criar aulas em cima",
+      "category": 0,
+      "tags": [5],
+      "links": [
+        { "text": "Teste-o", "url": "https://reclameet.herokuapp.com/" },
+        {
+          "text": "Repositório",
+          "url": "https://github.com/jonathan-santos/reclameet"
+        }
+      ],
+      "icon": {
+        "src": "reclameet-0.png"
+      },
+      "images": [
+        { "src": "reclameet-0.png" },
+        { "src": "reclameet-1.png" },
+        { "src": "reclameet-2.png" }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Landing Page BoardGames Brackers",
+      "description": "Primeira landing page que construí, feito no meu tempo no Bootcamp de front-end da Mastertech em 2018",
+      "category": 0,
+      "links": [
+        {
+          "text": "Teste-o",
+          "url": "https://jhow.io/landing-page-board-games-brackers/"
+        },
+        {
+          "text": "Repositório",
+          "url": "https://github.com/jonathan-santos/landing-page-board-games-brackers"
+        }
+      ],
+      "icon": {
+        "src": "landing-page-boardgames-brackers-0.png"
+      },
+      "images": [
+        { "src": "landing-page-boardgames-brackers-0.png" },
+        { "src": "landing-page-boardgames-brackers-1.png" },
+        { "src": "landing-page-boardgames-brackers-2.png" },
+        { "src": "landing-page-boardgames-brackers-3.png" }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Servidor Bluehack Automachat",
+      "description": "Meu primeiro servidor. Feito com Node.js para a Angelhack 2017 que participei em São Paulo. Ficamos em 3º lugar",
+      "category": 0,
+      "tags": [5],
+      "links": [
+        {
+          "text": "Repositório",
+          "url": "https://github.com/jonathan-santos/servidor-bluehack-automachat"
+        }
+      ],
+      "icon": {
+        "src": "servidor-bluehack-automachat-0.png"
+      },
+      "images": [{ "src": "servidor-bluehack-automachat-0.png" }]
+    },
+    {
+      "id": 10,
+      "name": "Unicórnio Adivinha App",
+      "description": "App feito totalmente por mim usando React Native e com prototipação de design usando o Figma. Reconhece as emoções de uma pessoa a partir de uma foto",
+      "category": 2,
+      "tags": [4],
+      "links": [
+        {
+          "text": "Repositório",
+          "url": "https://github.com/jonathan-santos/unicornio-adivinha-app"
+        },
+        {
+          "text": "Aplicativo na Play Store",
+          "url": "https://play.google.com/store/apps/details?id=io.jhow.unicornioadivinha"
+        }
+      ],
+      "icon": {
+        "src": "unicornio-adivinha-app-0.webp"
+      },
+      "images": [
+        { "src": "unicornio-adivinha-app-0.webp" },
+        { "src": "unicornio-adivinha-app-1.webp" },
+        { "src": "unicornio-adivinha-app-2.webp" }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Unity FPS",
+      "description": "Um jogo de FPS simples que criei no Unity para praticar desenvolvimento 3D e para criar aulas em cima",
+      "category": 1,
+      "tags": [7],
+      "links": [
+        {
+          "text": "Repositório",
+          "url": "https://github.com/jonathan-santos/unity-fps"
+        }
+      ],
+      "icon": {
+        "src": "unity-fps-0.png"
+      },
+      "images": [
+        { "src": "unity-fps-0.png" },
+        { "src": "unity-fps-1.png" },
+        { "src": "unity-fps-2.png" }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Brincando com Post processing",
+      "description": "Um experimento no Unity que fiz para aprender como luzes e post-processing funcionam",
+      "category": 1,
+      "tags": [7],
+      "links": [
+        {
+          "text": "Teste-o",
+          "url": "https://jhow.io/brincando-com-post-processing"
+        },
+        {
+          "text": "Repositório",
+          "url": "https://github.com/jonathan-santos/brincando-com-post-processing"
+        }
+      ],
+      "icon": {
+        "src": "brincando-com-post-processing-0.png"
+      },
+      "images": [
+        { "src": "brincando-com-post-processing-0.png" },
+        { "src": "brincando-com-post-processing-1.png" },
+        { "src": "brincando-com-post-processing-2.png" },
+        { "src": "brincando-com-post-processing-3.png" },
+        { "src": "brincando-com-post-processing-4.png" },
+        { "src": "brincando-com-post-processing-5.png" },
+        { "src": "brincando-com-post-processing-6.png" },
+        { "src": "brincando-com-post-processing-7.png" },
+        { "src": "brincando-com-post-processing-8.png" }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Batalha Naval",
+      "description": "Primeiro grande projeto de programação que fiz (e meu primeiro jogo), feito em Java durante meu tempo na ETEC Guaracy Silveira",
+      "category": 1,
+      "tags": [11],
+      "links": [
+        {
+          "text": "Teste-o",
+          "url": "https://repl.it/@jonathan_santos/batalha-naval-1"
+        },
+        {
+          "text": "Repositório",
+          "url": "https://github.com/jonathan-santos/batalha-naval"
+        }
+      ],
+      "icon": {
+        "src": "batalha-naval-0.png"
+      },
+      "images": [
+        { "src": "batalha-naval-0.png" },
+        { "src": "batalha-naval-1.png" }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Arruma esse quarto",
+      "description": "Jogo que fiz durante a minha primeira game jam, onde tive 3 horas para criar um jogo do zero usando construct 2 com o tema de pouco tempo",
+      "category": 1,
+      "tags": [8],
+      "links": [
+        {
+          "text": "Teste-o",
+          "url": "https://pipocacafeinada.itch.io/arruma-esse-quarto"
+        },
+        {
+          "text": "Repositório",
+          "url": "https://drive.google.com/open?id=1w5hhKyBkCCqI-TiHsNJSd8Nwq3gcZF7q"
+        }
+      ],
+      "icon": {
+        "src": "arruma-esse-quarto-0.png"
+      },
+      "images": [
+        { "src": "arruma-esse-quarto-0.png" },
+        { "src": "arruma-esse-quarto-1.png" }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Flappy Bird Pong",
+      "description": "Primeiro jogo usando o Canvas que fiz",
+      "category": 1,
+      "tags": [9],
+      "links": [
+        { "text": "Teste-o", "url": "https://jhow.io/pong-flappy-bird" },
+        {
+          "text": "Repositório",
+          "url": "https://github.com/jonathan-santos/pong-flappy-bird"
+        }
+      ],
+      "icon": {
+        "src": "flappy-bird-pong-0.png"
+      },
+      "images": [
+        { "src": "flappy-bird-pong-0.png" },
+        { "src": "flappy-bird-pong-1.png" }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Canvasrama",
+      "description": "Um site onde estou salvando os meus estudos sobre computação gráfica usando o Canvas",
+      "category": 1,
+      "tags": [9],
+      "links": [
+        { "text": "Teste-o", "url": "https://jhow.io/canvasrama" },
+        {
+          "text": "Repositório",
+          "url": "https://github.com/jonathan-santos/canvasrama"
+        }
+      ],
+      "icon": {
+        "src": "canvasrama-0.png"
+      },
+      "images": [
+        { "src": "canvasrama-0.png" },
+        { "src": "canvasrama-1.png" },
+        { "src": "canvasrama-2.png" },
+        { "src": "canvasrama-3.png" },
+        { "src": "canvasrama-4.png" },
+        { "src": "canvasrama-5.png" }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "A-Frame Primeiro Projeto",
+      "description": "Primeiro projeto de A-Frame que eu criei, feito numa mini Hackaton na Campus Party SP 2017",
+      "category": 3,
+      "tags": [10],
+      "links": [
+        { "text": "Teste-o", "url": "https://jhow.io/aframe-primeiro-projeto" },
+        {
+          "text": "Repositório",
+          "url": "https://github.com/jonathan-santos/aframe-primeiro-projeto"
+        }
+      ],
+      "icon": {
+        "src": "a-frame-primeiro-projeto-0.png"
+      },
+      "images": [{ "src": "a-frame-primeiro-projeto-0.png" }]
+    },
+    {
+      "id": 18,
+      "name": "Stepping feet Illusion",
+      "description": "Site que ilustra a ilusão de ótica stepping feet",
+      "category": 3,
+      "tags": [9],
+      "links": [
+        {
+          "text": "Teste-o",
+          "url": "https://stepping-feet-illusion.jhow.io"
+        },
+        {
+          "text": "Repositório",
+          "url": "https://github.com/jonathan-santos/stepping-feet-illusion"
+        }
+      ],
+      "icon": {
+        "src": "stepping-feet-illusion-0.png"
+      },
+      "images": [
+        { "src": "stepping-feet-illusion-0.png" },
+        { "src": "stepping-feet-illusion-1.png" },
+        { "src": "stepping-feet-illusion-2.png" }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Ludo",
+      "description": "Meu primeiro projeto de computação gráfica, feito em Java durante meu tempo na ETEC Guaracy Silveira",
+      "category": 3,
+      "tags": [11],
+      "links": [
+        { "text": "Teste-o", "url": "https://repl.it/@jonathan_santos/ludo-1" },
+        {
+          "text": "Repositório",
+          "url": "https://github.com/jonathan-santos/ludo"
+        }
+      ],
+      "icon": {
+        "src": "ludo-0.png"
+      },
+      "images": [{ "src": "ludo-0.png" }]
+    },
+    {
+      "id": 20,
+      "name": "FPS Knight",
+      "description": "Personagem feito no MagicaVoxel para ser usado posteriormente em jogos",
+      "category": 4,
+      "tags": [13],
+      "links": [
+        {
+          "text": "Arquivos do projeto",
+          "url": "https://drive.google.com/open?id=13Mj-HY63dHrYDOURsPjwE9LdjrIEwMBd"
+        }
+      ],
+      "icon": {
+        "src": "fps-knight-0.png"
+      },
+      "images": [{ "src": "fps-knight-0.png" }]
+    },
+    {
+      "id": 21,
+      "name": "Café e Donut",
+      "description": "Primeiro projeto que fiz durante meu reaprendizado de Blender em 2020",
+      "category": 4,
+      "tags": [12],
+      "links": [
+        {
+          "text": "Arquivos do projeto",
+          "url": "https://drive.google.com/open?id=15MM5C6H6pPgZLEpwii2ANzV6zP_sDRpo"
+        }
+      ],
+      "icon": {
+        "src": "cafe-e-donut-0.png"
+      },
+      "images": [
+        { "src": "cafe-e-donut-0.png" },
+        { "src": "cafe-e-donut-1.png" },
+        { "src": "cafe-e-donut-2.png" }
+      ],
+      "videos": [
+        { "src": "cafe-e-donut-video.mov" }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Carro Low Poly",
+      "description": "Carro Low Poly, criado no começo da quarentena de COVID-19 em 2020, feito em blender",
+      "category": 4,
+      "tags": [12],
+      "links": [
+        {
+          "text": "Arquivos do projeto",
+          "url": "https://drive.google.com/open?id=1YFBLc8gdR1mU2ZQsQTaj5Rr23movJg0j"
+        }
+      ],
+      "icon": {
+        "src": "carro-low-poly-0.png"
+      },
+      "images": [{ "src": "carro-low-poly-0.png" }]
+    },
+    {
+      "id": 23,
+      "name": "Ícone de Pipoca Cafeinada",
+      "description": "Uma xícara de café com pipoca dentro, criado no começo da quarentena de COVID-19 em 2020, feito em blender",
+      "category": 4,
+      "tags": [12],
+      "links": [
+        {
+          "text": "Arquivos do projeto",
+          "url": "https://drive.google.com/open?id=1z0eWC6i1SJesFjxiSZl6LOlMNCDEjkzi"
+        }
+      ],
+      "icon": {
+        "src": "icone-pipoca-cafeinada-0.png"
+      },
+      "images": [{ "src": "icone-pipoca-cafeinada-0.png" }]
+    },
+    {
+      "id": 24,
+      "name": "Tanque aranha",
+      "description": "Tanque aranha feito em blender para prática",
+      "category": 4,
+      "tags": [12],
+      "links": [
+        {
+          "text": "Arquivos do projeto",
+          "url": "https://drive.google.com/open?id=1qMIyLKOYCzAKNCOt8LVM2xypfWQGnVJw"
+        }
+      ],
+      "icon": {
+        "src": "tanque-aranha-0.png"
+      },
+      "images": [{ "src": "tanque-aranha-0.png" }]
     }
   ]
 }
